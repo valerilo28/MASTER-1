@@ -1,0 +1,87 @@
+body {
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+h2 {
+
+    font-family:'Consolas', Times, serif;
+    color: rgb(0, 0, 0);
+}
+
+.container{
+    background-color:cornsilk;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    width: 350px;
+}
+
+.password-box{
+    background-color:darksalmon;
+    padding: 10px;
+    border-radius: 5px;
+    font-size: 20px;
+    text-align: center;
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.copy-btn {
+    cursor: pointer;
+    background: none;
+    border: none;
+    color:gold;
+    font-size: 18px;
+}
+
+.slider {
+    width: 100%;
+}
+
+.options {
+    text-align: left;
+    margin-top: 10px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.strength {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 10px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.strength-indicator {
+    display: flex;
+    gap: 5px;
+}
+
+.bar {
+    width: 10px;
+    height: 10px;
+    background: #555;
+    border-radius: 2px;
+}
+
+.generate-btn {
+    width: 100%;
+    padding: 10px;
+    margin-top: 10px;
+    background: gold;
+    border: none;
+    border-radius: 5px;
+    font-size: 18px;
+    cursor: pointer;
+}
+
+.generate-btn:hover {
+    background: #00cc77;
+}
